@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+hr {
+	color: #ac6388;
+}
+
+h3 {
+	font-family: lato;
+	font-size: 15px;
+	color: #AC6388;
+}
+
+h2 {
+	font-family: lato;
+	font-size: 25px;
+	color: #AC6388;
+}
+
+p {
+	font-family: lato;
+}
+
+.stars{
+	font-family: lato;
+	color: #EACF13;
+}
+
+.tag {
+	border-radius: 10px;
+	padding: 8px;
+	background-color: #AC6388;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 11px;
+}
+
+.JumpBtn {
+	border-radius: 10px;
+	padding: 15px;
+	background-color: #D47EB7;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 11px;
+}
+
+.caption {
+	font-family: lato;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.videoTag {
+	width: 240px;
+	height: 135px;
+	overflow: hidden;
+	border-radius: 20px;
+	border: medium;
+	border-color: black;
+	align-content: stretch;
+}
+
+.videoCaption {
+	font-size: 12px;
+	align-content: center;
+}
+
+span.heimu a.external, span.heimu a.external:visited, span.heimu a.extiw,
+span.heimu a.extiw:visited {
+    color: #252525
+}
+
+.heimu, .heimu a, a .heimu, .heimu a.new {
+    background-color: #252525;
+    color: #252525;
+    text-shadow: none
+}
+
+body:not(.heimu_toggle_on) .heimu:hover, body:not(.heimu_toggle_on) .heimu:active,
+body:not(.heimu_toggle_on) .heimu.off {
+    transition: color .13s linear;
+    color: #fff
+}
+
+body:not(.heimu_toggle_on) .heimu:hover a, body:not(.heimu_toggle_on) a:hover .heimu,
+body:not(.heimu_toggle_on) .heimu.off a, body:not(.heimu_toggle_on) a:hover .heimu.off {
+    transition: color .13s linear;
+    color: #add8e6
+}
+
+body:not(.heimu_toggle_on) .heimu.off .new, body:not(.heimu_toggle_on) .heimu.off .new:hover,
+body:not(.heimu_toggle_on) .new:hover .heimu.off, body:not(.heimu_toggle_on) .heimu.off .new,
+body:not(.heimu_toggle_on) .heimu.off .new:hover, body:not(.heimu_toggle_on) .new:hover .heimu.off {
+    transition: color .13s linear;
+    color: #ba0000
+}
