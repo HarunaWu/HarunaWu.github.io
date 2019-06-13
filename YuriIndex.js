@@ -18,7 +18,7 @@ for (var j=rank+1;j<=5;j++){
 BBRank.innerHTML = starString;
 
 var BBCaption = document.getElementById("BBCaption");
-BBCaption.innerHTML = "<span class=\"heimu\">七海灯子出来挨打</span>";
+BBCaption.innerHTML = "\"无法喜欢上他人\"有这样想法的<span class=\"heimu\">小天使</span>小糸侑就这样升入了高中，而在高中的学生会室，侑遇见了似乎有着同样想法<span class=\"heimu\">出来挨打</span>的七海灯子，于是两位少女互相救赎的故事便拉开了序幕<span class=\"heimu\">其实是侑天使单方向拯救灯子</span>";
 
 var BBTable = document.getElementById("Tags-Table");
 var TagList = ["T社","一迅社","少女百合","愿天堂没有碍国者"];

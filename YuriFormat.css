@@ -52,8 +52,8 @@ p {
 }
 
 .videoTag {
-	width: 240px;
-	height: 135px;
+	width: 160px;
+	height: 90px;
 	overflow: hidden;
 	border-radius: 20px;
 	border: medium;
@@ -64,6 +64,12 @@ p {
 .videoCaption {
 	font-size: 12px;
 	align-content: center;
+}
+
+.chapterHead {
+	color: #AC6388;
+	padding-left: 20px;
+	text-align: left
 }
 
 span.heimu a.external, span.heimu a.external:visited, span.heimu a.extiw,
