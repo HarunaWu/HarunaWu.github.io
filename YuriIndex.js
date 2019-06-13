@@ -21,9 +21,11 @@ var BBCaption = document.getElementById("BBCaption");
 BBCaption.innerHTML = "<span class=\"heimu\">七海灯子出来挨打</span>";
 
 var BBTable = document.getElementById("Tags-Table");
-var TagList = ["T社","一迅社","少女百合","愿天堂没有碍国者"]
+var TagList = ["T社","一迅社","少女百合","愿天堂没有碍国者"];
+console.log(TagList);
 var TableInnerHTML = "<tr>";
 for(i=0;i<TagList.length;i++){
 	TableInnerHTML += "<td><p class=\"tag\">"+TagList[i]+"</p></td>";
+	console.log(TableInnerHTML);
 }
 BBTable.innerHTML = TableInnerHTML + "</tr>";
