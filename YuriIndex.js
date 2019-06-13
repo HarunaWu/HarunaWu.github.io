@@ -29,9 +29,10 @@ for(i=0;i<TagList.length;i++){
 BBTable.innerHTML = TableInnerHTML + "</tr>";
 
 var BBGetRoute = document.getElementById("Get-Route");
-var Route = ["Bilibili观看（目前下线）":"https://www.bilibili.com","百度网盘":"https://pan.baidu.com","日本亚马逊购买":"https://amazon.co.jp"]
+var Route = ["动画 - Bilibili观看（目前下线）","动画 - 百度网盘","动画 - 日本亚马逊购买","漫画 - 百度网盘","漫画 - 日本亚马逊购买","相关视频"];
+var Routrl = ["https://bilibili.com","https://pan.baidu.com","https://www.amazon.co.jp","https://pan.baidu.com","https://www.amazon.co.jp","https://harunawu.github.io"];
 var GetRouteInnerHTML = "";
 for(i=0;i<Route.length;i++){
-	GetRouteInnerHTML += "<a href=" + Route.values[i] + ">" + "<button class=\"JumpBtn\">" + Route.keys[i] + "</button></a>";
+	GetRouteInnerHTML += "<a href=" + Routrl[i] + ">" + "<button class=\"JumpBtn\">" + Route[i] + "</button></a>";
 }
 BBGetRoute.innerHTML = GetRouteInnerHTML;
