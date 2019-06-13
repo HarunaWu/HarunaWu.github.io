@@ -27,3 +27,11 @@ for(i=0;i<TagList.length;i++){
 	TableInnerHTML += "<td><p class=\"tag\">"+TagList[i]+"</p></td>";
 }
 BBTable.innerHTML = TableInnerHTML + "</tr>";
+
+var BBGetRoute = document.getElementById("Get-Route");
+var Route = ["Bilibili观看（目前下线）":"https://www.bilibili.com","百度网盘":"https://pan.baidu.com","日本亚马逊购买":"https://amazon.co.jp"]
+var GetRouteInnerHTML = "";
+for(i=0;i<Route.length;i++){
+	GetRouteInnerHTML += "<a href=" + Route.values[i] + ">" + "<button class=\"JumpBtn\">" + Route.keys[i] + "</button></a>";
+}
+BBGetRoute.innerHTML = GetRouteInnerHTML;
