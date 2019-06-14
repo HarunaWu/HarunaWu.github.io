@@ -36,3 +36,13 @@ for(i=0;i<Route.length;i++){
 	GetRouteInnerHTML += "<a href=" + Routrl[i] + ">" + "<button class=\"JumpBtn\">" + Route[i] + "</button></a>";
 }
 BBGetRoute.innerHTML = GetRouteInnerHTML;
+
+var YETable = document.getElementById("YuriExpress");
+var YESrc = ["Watatenn.jpg","Kiminaru.jpg","Nyuge.jpg","Gochiusa.jpg","Kinnmoza.jpg",""]
+for(i=0;i<YESrc.length;i++){
+	var YETableRow = YETable.insertRow();
+	var YETableCell = YETableRow.insertCell();
+	YETableCell.innerHTML = "<div class=\"videoTag\"><img src=\"YuriExpress/"+YESrc[i]
+}
+
+

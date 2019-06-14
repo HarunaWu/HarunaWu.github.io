@@ -20,6 +20,11 @@ p {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
+#Header{
+	background: linear-gradient(#ffffff,#ededed);
+	box-shadow: 0 3px 5px 0 #aaaaaa;
+}
+
 .stars{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: #EACF13;
